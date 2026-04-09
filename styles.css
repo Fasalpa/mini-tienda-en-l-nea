@@ -1,9 +1,21 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  columns: 3;
+}
+.card {
+  background-color: rgb(230, 245, 245);
 }
 
-.card{
-background-color: rgb(230, 245, 245);
+#lista-carrito{
+    display: flex;
+
+    flex-direction: column;
+    
 }
