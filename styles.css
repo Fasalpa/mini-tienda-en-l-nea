@@ -15,7 +15,9 @@ body {
 
 #lista-carrito{
     display: flex;
-
     flex-direction: column;
     
+}
+#btnEliminar{
+  width: 50px;
 }
