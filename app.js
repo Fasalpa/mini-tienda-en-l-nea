@@ -77,6 +77,7 @@ btnVaciar.addEventListener("click", function () {
 function mostrarMensajeEliminadoUnitario(texto) {
   let mensaje = document.createElement("p");
   mensaje.textContent = texto;
+  let contenedor = document.getElementById("notificaciones");
 
   mensaje.style.background = "#d4edda";
   mensaje.style.color = "#155724";
